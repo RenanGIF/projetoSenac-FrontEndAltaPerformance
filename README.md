@@ -1,2 +1,2 @@
-# projetoSenac-FrontEndAltaPerformance
-Projetos Renan - Front-End de Alta Performance
+# Projetos Renan - Front-End de Alta Performance
+Local para exibiçao dos códigos front-end
