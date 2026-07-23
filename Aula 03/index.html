@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Formulario top</h1>
+        <fieldset>
+            <legend>Digite aqui!</legend>
+            <form action="preferencias.html" method="get">
+                <img src="google.png" height="220px" width="auto">
+                <br>
+
+                <label>Digite seu e-mail:</label>
+                <input type="email" placeholder="exemplo@gmail.com">
+                <br>
+
+                <label>Digite seu nome:</label>
+                <input type="text" placeholder="exemplo" required>
+                <br>
+
+                <label class="idade">Digite sua idade:</label>
+                <input type="number">
+                <br>
+
+                <label>Digite a data da sua consulta:</label>
+                <input type="date"></input>
+                <br>
+
+                <label>Marque o tipo da sua consulta:</label>
+                <br>
+                Colonoscopia
+                <input type="checkbox">
+                <br>
+                Raio X
+                <input type="checkbox">
+                <br>
+                Coração
+                <input type="checkbox">
+                <br>
+                Hemograma
+                <input type="checkbox">
+                <br>
+
+                <label>Qual o seu estado:</label>
+                <select>
+                    <option>MG</option>
+                    <option>SP</option>
+                    <option>SC</option>
+                    <option>RJ</option>
+                </select>
+                <br>
+
+                <label>Qual a sua identidade de genêro?</label>
+                <br>
+                <input type="radio" name="sexo">
+                Masculino
+                <input type="radio" name="sexo">
+                Feminino
+                <input type="radio" name="sexo">
+                Outros
+                <br>
+
+                <label>CPF:</label>
+                <input type="password">
+                <br>
+
+                <label class="senha">Senha:</label>
+                <input type="password">
+                <br>
+
+                <label>Qual o seu nivel de dor:</label>
+                <input class="nivelDor" type="range" min="0" max="10">
+                <br>
+
+                <input type="reset">
+                <button type="submit">Clique para enviar</button>
+                <br>
+
+                <a href="https://www.google.com/?hl=pt_BR">Ir para o google</a>
+                
+            </form>
+        </fieldset>
+    </main>
+</body>
+</html>
