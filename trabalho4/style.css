@@ -5,22 +5,18 @@ body{
 
 }
 
-/* Não curti centralizado 
-header{
+header:hover{
     text-align: center;
 }
-*/
 
 main, footer{
     background-color: #ececeb;
     color: #161616;
 }
 
-/* Tmb não curti centralizado 
-footer{
+footer:hover{
     text-align: center;
 } 
-*/
 
 hr{
     border: 2px coral solid;
@@ -39,15 +35,25 @@ a{
     border-radius: 50%;
 }
 
-h1{
+
+
+.fotoDePerfil:hover{
+    border: 4px #2307da solid;
+    cursor:grab;
+    box-shadow: 2px 2px 10px rgb(0, 85, 255);
+}
+
+h1:hover{
     text-decoration:underline coral;
 }
 
 .linkContato{
     color: #161616;
-    text-decoration:underline rgb(35, 7, 217) solid;
+    text-decoration:underline #2307da solid;
 }
 
 ::marker{
     color: coral;
 }
+
+
