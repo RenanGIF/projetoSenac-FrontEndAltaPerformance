@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoPrime Seminovos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AutoPrime Seminovos</h1>
+        <h2>Alguma coisa sobre loja de carros seminovos, estou sem criatividade.</h2>
+    </header>
+    <nav>
+    <hr>
+        <div class="links">
+            <a href="index.html">Inicio</a> | 
+            <a href="detalhes.html#comoFunciona">Sla</a> | 
+            <a href="detalhes.html">Sla2</a>
+            <button onclick="trocaDeModo()">Modo Escuro</button>
+        </div>
+    <hr>
+    </nav>
+    <main>
+        <hero>
+            <h2>Seu proximo carro esta aqui!</h2>
+            <img src="imagens/heroOnix.avif">
+            <p>A AutoPrime Seminovos oferece tantos carros e mais carros e pa</p>
+            <button onclick="boasVindas()">Ver condição especial</button>
+        </hero>
+
+        <section>
+            <h2>Carros:</h2>
+            <h4>Veja os nossos carros:</h4>
+            <div class="conteinerCardCarros"></div>
+            <div class="card1">
+                <h3>Onix 2026</h3>
+                <img src="imagens/onix2026.png">
+                <h4>Descrição:</h4>
+                <p id="dsOnix2026">Carro bom pra familia e passeios sla, pode ser usado, tem 4 lugares</p>
+                <button id="botaoCarCard" onclick="maisInformacoes()">Ver informações tecnicas</button>
+            </div>
+        </section>
+
+        <section>
+            <h2>Entre em contato com agente:</h2>
+            <form>
+                <p>Nome:</p>
+                <input id="nome">
+                <p>Telefone:</p>
+                <input id="telefoneUser">                
+                <p>Carro de interesse:</p>
+                <input id="carroInteresse">
+                <button onclick="respostaInterrese()">Enviar</button>            
+            </form>
+        </section>
+
+        <section>
+            <h2>Simule seu financiamento:</h2>
+            <h4>Seu carro dos sonhos esta a um clique de distancia!</h4>
+            <form>
+                <p>Valor do veículo:</p>
+                <input id="valorCarro">
+                <p>Quanto você quer dar de entrada?</p>
+                <input id="entrada">                
+                <p>Em quantas parcelas deseja pagar?</p>
+                <input id="parcelas">
+                <button onclick="resultFinanciamento()" type="button">Enviar</button>    
+            </form>
+            <h4>Resultado:</h4> 
+            <p id="respostaContato"></p>
+        </section>
+
+    </main>
+    <footer>
+        <hr>
+        <h2><b>AutoPrime Seminovos</b></h2>
+        <p><b>Telefone:</b>(34) 99287-0077</p>
+        <p><b>Endereço:</b> X. xxxxxxx, yyyy - X, Uberlândia - MG, xxxxx-xxx</p>
+        <p><b>&copy; 2026 AutoPrime Seminovos</b></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,220 @@
+:root {
+    --FundoAlternativo: #F5F5F5;
+    --FundoPrincipal2: #1A1A1E;
+    --FundoPrincipal: #0D0D0F;
+    --VermelhoDestaque: #E63946;
+    --Prata: #C9CDD3;
+    --TextoAlternativo: #1F1F1F;
+    --Branco: #FFFFFF;
+}
+
+body{
+    background-color: var(--FundoAlternativo);
+    color: var(--Branco);
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: var(--FundoPrincipal2);
+    color: var(--Branco);
+    padding: 20px;
+    text-align: center;
+}
+
+header h2{
+    font-weight: normal;
+    color: var(--Prata);
+}
+
+nav{
+    gap: 30px;
+    padding-left: 10px;
+    background-color: var(--FundoPrincipal2);
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+nav button{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+main{
+    background-color: var(--FundoAlternativo);
+    color: var(--TextoAlternativo);
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+hero{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 420px;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: var(--FundoPrincipal2);
+    color: var(--Branco);
+    padding: 20px;
+}
+
+hero img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+hero h2{
+    position: relative;
+    z-index: 1;
+    font-size: 2.2em;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+}
+
+hero p{
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+hero button{
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+section{
+    padding: 20px 10px;
+}
+
+.conteinerCardCarros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card1{
+    padding: 20px;
+    width: 250px;
+    height: auto;
+    text-align: left;
+    background-color: var(--FundoPrincipal2);
+    color: var(--Branco);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--VermelhoDestaque);
+}
+
+.card1 img{
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+
+
+form{
+    width: 600px;
+    max-width: 100%;
+    text-align: left;
+    background-color: var(--FundoPrincipal2);
+    color: var(--Branco);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+input{
+    color: var(--TextoAlternativo);
+    background-color: var(--Branco);
+    border: 1px var(--Prata) solid;
+    border-radius: 6px;
+    padding: 6px;
+    width: 250px;
+    max-width: 100%;
+}
+
+input:focus{
+    border: 3px var(--VermelhoDestaque) solid;
+    border-radius: 6px;
+    outline: none;
+}
+
+::placeholder{
+    color: #6b7280;
+}
+
+button{
+    color: var(--Branco);
+    background-color: var(--VermelhoDestaque);
+    border: 1px var(--VermelhoDestaque) solid;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 10px;
+}
+
+button:hover{
+    color: var(--Branco);
+    background-color: #b8202c;
+    border: 1px #b8202c solid;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px var(--VermelhoDestaque);
+}
+
+button:active{
+    box-shadow: none;
+}
+
+#respostaContato{
+    background-color: var(--FundoPrincipal2);
+    color: var(--Branco);
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 20px;
+    border-left: 4px solid var(--VermelhoDestaque);
+}
+
+footer{
+    background-color: var(--FundoPrincipal2);
+    color: var(--Prata);
+    padding: 10px;
+    text-align: center;
+}
+
+hr{
+    border: 1.5px var(--VermelhoDestaque) solid;
+}
+
+a{
+    color: var(--VermelhoDestaque);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--VermelhoDestaque);
+    text-decoration: underline var(--VermelhoDestaque) solid;
+}
+
+h1{
+    text-decoration: underline var(--VermelhoDestaque) solid;
+}
