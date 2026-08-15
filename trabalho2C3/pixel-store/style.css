@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: rgb(246, 243, 248);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.linksNav{
+    display: flex;
+    gap: 20px;
+}
+
+hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+hero{
+    img{
+        width: 90%;
+}
+}
+
+.conteinerCardsDS{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.CardsDS{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    width: 250px;
+    height: auto;
+    text-align: left;
+    background: rgb(252, 251, 251);
+    color: rgb(109, 108, 108);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(63, 62, 62);
+
+    p, h3{
+        margin: 0%;
+    }
+
+    img{
+        border: 1px solid rgba(109, 108, 108, 0.39);
+        border-radius: 5px;
+    }
+
+    button{
+        background: #008000;
+        border-radius: 6px;
+        border-style: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+}
+
+.labelsDesc{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.freteGratisLabel{
+    background: #059e0048;
+    border: 1px solid #059e00;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #059e00;
+}
+
+.descontoLabel{
+    background: #ff26003d;
+    border: 1px solid #ff2600;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #ff2600;
+}
+
+
+.avaliacoes{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    img{
+        width: 20px;
+        height: 20px;
+        border: none;
+    }
+    p{
+        font-weight: bold;
+    }
+}
+
+.precoSD{
+    font-size: 15px;
+    text-decoration:line-through ;
+}
+
+.precoCD{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.precoPor{
+    display: flex;
+    gap: 8px;
+}
+
+.precoSDConteiner{
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+}

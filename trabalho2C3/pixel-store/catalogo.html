@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pixel Store</h1>
+        <h3>Texto da Pixel Store</h3>
+    </header>
+
+    <nav>
+        <div class="linksNav">
+            <a href="index.html">Inicio</a> |
+            <a href="#destaquesSemanaT">Destaques da semana</a> |
+            <a class="activeLink" href="catalogo.html">Catalogo</a> |
+            <a href="atendimento.html">Atendimento</a>
+        </div>
+        <div class="buttonNav">
+            <button onclick="modoPromocao()">Modo Promoção</button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="destaquesSemana">
+            <h2 id="destaquesSemanaT">Destaques da Semana:</h2>
+
+            <div class="conteinerCardsDS">
+
+                <div id="cardMouse" class="CardsDS">
+                    <img src="imagens/mouse_logitech_g203.webp">
+                    <div class="labelsDesc">
+                        <p class="freteGratisLabel">Frete Gratis</p>
+                        <p id="descontoMouse" class="descontoLabel">5% OFF</p>
+                    </div>
+                    <h3>Mouse Gamer Logitech G203 LIGHTSYNC - Preto</h3>
+                    <p>RGB, Efeito de Ondas de Cores, 6 Botões Programáveis e Até 8.000 DPI</p>
+                    <div class="avaliacoes">
+                        <div class="estrelas">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                        </div>
+                        <p>45 Avaliações</p>
+                    </div>
+                    <div class="precoSDConteiner">
+                        <p>De: </p>
+                        <p class="precoSD">R$ R$ 120,00</p>
+                    </div>
+                    <div class="precoPor">
+                        <p class="precoSDTextDN">Por:</p>
+                        <p id="precoMouse" class="precoCD">R$ 114,00</p>
+                    </div>
+                    <button><a href="produtoX">Comprar</a></button>
+                </div>
+
+                <div class="CardsDS">
+                    <img src="imagens/headset-gamer-havit-h2015se.webp">
+                    <div class="labelsDesc">
+                        <p class="freteGratisLabel">Frete Gratis</p>
+                        <p class="descontoLabel">15% OFF</p>
+                    </div>
+                    <h3>Headset Gamer Havit H2015SE, 3.5mm, Drivers de 53mm, Branco</h3>
+                    <p>O Havit H2015SE foi desenvolvido para gamers exigentes que buscam desempenho profissional e máxima imersão sonora.</p>
+                    <div class="avaliacoes">
+                        <div class="estrelas">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                        </div>
+                        <p>45 Avaliações</p>
+                    </div>
+                    <div class="precoSDConteiner">
+                        <p>De: </p>
+                        <p class="precoSD">R$ 150</p>
+                    </div>
+                    <div class="precoPor">
+                        <p class="precoSDTextDN">Por:</p>
+                        <p class="precoCD">R$ 127,50</p>
+                    </div>
+                    <button><a href="produtoX">Comprar</a></button>
+                </div>
+
+                <div id="cardControle" class="CardsDS">
+                    <img src="imagens/controle-gamer-8bitdo-ultimate-2c.webp">
+                    <div class="labelsDesc">
+                        <p id="freteGratisLabel" class="freteGratisLabel">Frete Gratis</p>
+                        <p id="descontoControle" class="descontoLabel">10% OFF</p>
+                    </div>
+                    <h3>Controle Gamer 8BitDo Ultimate 2C</h3>
+                    <p>Bluetooth/Wireless, Hall Effect, Mint, 81HD03, Disponível em menta, pêssego, verde e roxo</p>
+                    <div class="avaliacoes">
+                        <div class="estrelas">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                        </div>
+                        <p>45 Avaliações</p>
+                    </div>
+                    <div class="precoSDConteiner">
+                        <p>De: </p>
+                        <p class="precoSD">R$ 307,69</p>
+                    </div>
+                    <div class="precoPor">
+                        <p class="precoSDTextDN">Por:</p>
+                        <p id="precoControle" class="precoCD">R$ 276,93</p>
+                    </div>
+                    <button><a href="produtoX">Comprar</a></button>
+                </div>
+
+                <div id="" class="CardsDS">
+                    <img src="imagens/processador-amd-ryzen.webp">
+                    <div class="labelsDesc">
+                        <p id="" class="freteGratisLabel">Frete Gratis</p>
+                        <p id="" class="descontoLabel">10% OFF</p>
+                    </div>
+                    <h3>Processador AMD Ryzen 7 7800X3D</h3>
+                    <p>4.2GHz (5.0GHz Turbo), 8-Cores 16-Threads, AM5, Sem Cooler, 100-100000910WOF</p>
+                    <div class="avaliacoes">
+                        <div class="estrelas">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                        </div>
+                        <p>45 Avaliações</p>
+                    </div>
+                    <div class="precoSDConteiner">
+                        <p>De: </p>
+                        <p class="precoSD">R$ 4.899,99</p>
+                    </div>
+                    <div class="precoPor">
+                        <p class="precoSDTextDN">Por:</p>
+                        <p id="precoControle" class="precoCD">R$ 2.099,99</p>
+                    </div>
+                    <button><a href="produtoX">Comprar</a></button>
+                </div>
+
+                <div class="CardsDS">
+                    <img src="imagens/placa-de-video-asus-rog-astral-nvidia-geforce-rtx-5090-white-edition.webp">
+                    <div class="labelsDesc">
+                        <p class="freteGratisLabel">Frete Gratis</p>
+                        <p class="descontoLabel">17% OFF</p>
+                    </div>
+                    <h3>Placa de Vídeo Asus Rog Astral NVIDIA GeForce RTX 5090 White Edition OC</h3>
+                    <p>32GB, GDDR7, DLSS, Ray Tracing, ROG-ASTRAL-RTX5090-O32G-WHITE</p>
+                    <div class="avaliacoes">
+                        <div class="estrelas">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                        </div>
+                        <p>45 Avaliações</p>
+                    </div>
+                    <div class="precoSDConteiner">
+                        <p>De: </p>
+                        <p class="precoSD">R$ 35.010,90</p>
+                    </div>
+                    <div class="precoPor">
+                        <p class="precoSDTextDN">Por:</p>
+                        <p class="precoCD">R$ 28.999,99</p>
+                    </div>
+                    <button><a href="produtoX">Comprar</a></button>
+                </div>
+
+
+                <div class="CardsDS">
+                    <img src="imagens/teclado-gamer-mecanico-corsair-k70.webp">
+                    <div class="labelsDesc">
+                        <p class="freteGratisLabel">Frete Gratis</p>
+                        <p class="descontoLabel">33% OFF</p>
+                    </div>
+                    <h3>Teclado Gamer Mecânico Corsair K70 Core</h3>
+                    <p>TKL, RGB, Switch MLX Red V2, ANSI, Preto, CH-911911E-NA</p>
+                    <div class="avaliacoes">
+                        <div class="estrelas">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                        </div>
+                        <p>45 Avaliações</p>
+                    </div>
+                    <div class="precoSDConteiner">
+                        <p>De: </p>
+                        <p class="precoSD">R$ 826,90</p>
+                    </div>
+                    <div class="precoPor">
+                        <p class="precoSDTextDN">Por:</p>
+                        <p class="precoCD">R$ 549,99</p>
+                    </div>
+                    <button><a href="produtoX">Comprar</a></button>
+                </div>
+
+
+                <div class="CardsDS">
+                    <img src="imagens/monitor-gamer-gigabyte-gs24f14-238.webp">
+                    <div class="labelsDesc">
+                        <p class="freteGratisLabel">Frete Gratis</p>
+                        <p class="descontoLabel">27% OFF</p>
+                    </div>
+                    <h3>Monitor Gamer Gigabyte GS24F14</h3>
+                    <p>23.8 Pol, Full HD, IPS, 144Hz, 1ms, 104% sRGB, HDMI/DP</p>
+                    <div class="avaliacoes">
+                        <div class="estrelas">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                        </div>
+                        <p>45 Avaliações</p>
+                    </div>
+                    <div class="precoSDConteiner">
+                        <p>De: </p>
+                        <p class="precoSD">R$ 752,90</p>
+                    </div>
+                    <div class="precoPor">
+                        <p class="precoSDTextDN">Por:</p>
+                        <p class="precoCD">R$ 549,99</p>
+                    </div>
+                    <button><a href="produtoX">Comprar</a></button>
+                </div>
+
+
+                <div class="CardsDS">
+                    <img src="imagens/placa-mae-msi-b650m.webp">
+                    <div class="labelsDesc">
+                        <p class="freteGratisLabel">Frete Gratis</p>
+                        <p class="descontoLabel">53% OFF</p>
+                    </div>
+                    <h3>Placa Mãe MSI B650M Gaming Plus</h3>
+                    <p>WIFI, Chipset B650, AMD AM5, MATX, DDR5</p>
+                    <div class="avaliacoes">
+                        <div class="estrelas">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                            <img src="imagens/estrela.png">
+                        </div>
+                        <p>45 Avaliações</p>
+                    </div>
+                    <div class="precoSDConteiner">
+                        <p>De: </p>
+                        <p class="precoSD">R$ 2.322,90</p>
+                    </div>
+                    <div class="precoPor">
+                        <p class="precoSDTextDN">Por:</p>
+                        <p class="precoCD">R$ 1.099,99</p>
+                    </div>
+                    <button><a href="produtoX">Comprar</a></button>
+                </div>
+            </div>
+        </section>
+        <section class="simularCompra">
+            <h2>Gostou de algum produto?</h2>
+            <h3>Escolha um produto abaixo e simule sua compra agora!</h3>
+            <form>
+                <label>Qual o seu produto:</label>
+                <select>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                </select>
+                <button id="botaoSimularCompra" type="button" onclick="simularCompra()">Enviar</button>   
+            </form>     
+            <p id="respostaContato"></p> 
+        </section>
+
+    </main>
+    <footer>
+        <hr>
+        <h2><b>Pixel Store</b></h2>
+        <p><b>CNPJ:</b>00.000.000/0001-00</p>
+        <p><b>Endereço:</b> X. xxxxxxx, yyyy - X, Uberlândia - MG, xxxxx-xxx</p>
+        <p><b>Atendimento:</b>De segunda a sexta das 8:30 às 12H / 13H às 18H</p>
+        <p><b>&copy; 2026 Pixel Store</b></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
