@@ -31,3 +31,31 @@ function modoPromocao(){
     descontoControle.textContent = "35% OFF";
     precoControle.textContent = "R$ 199,99";
 }
+
+function simularCompra(){
+    let opcoesP = document.getElementById("produtos")
+    let resultadoValu
+    let resultadoC = document.getElementById("resultCompra")
+    let opcoesU = Number(document.getElementById("unidades").value)
+
+    if (opcoesU >= 3 && resultadoValu >= 500){
+        let resultadoValu = opcoesU * opcoesP.value - (opcoesP.value * 0.1)
+        resultadoC.textContent = ("O seu produto vai custar: R$ " + resultadoValu + " foi aplicado um desconto de 10%, por estar acima de 3 unidades, e voce tera FRETE GRATIS por sua compra estar acima de R$ 500.00")
+    }
+
+    else if (opcoesU >= 3 && resultadoValu < 500){
+        let resultadoValu = opcoesU * opcoesP.value - (opcoesP.value * 0.1)
+        resultadoC.textContent = ("O seu produto vai custar: R$ " + resultadoValu + " foi aplicado um desconto de 10%, por estar acima de 3 unidades, e voce nao tera FRETE GRATIS por sua compra nao estar acima de R$ 500.00")
+    }
+    
+    else if (opcoesU < 3 && resultadoValu >= 500){
+        let resultadoValu = opcoesU * opcoesP.value 
+        resultadoC.textContent = ("O seu produto vai custar: R$ " + resultadoValu + " nao foi aplicado um desconto de 10%, por estar acima de 3 unidades, e voce tera FRETE GRATIS por sua compra estar acima de R$ 500.00")
+    }
+    
+    else if (opcoesU < 3 && resultadoValu < 500){
+        let resultadoValu = opcoesU * opcoesP.value 
+        resultadoC.textContent = ("O seu produto vai custar: R$ " + resultadoValu + " nao foi aplicado um desconto de 10%, por estar acima de 3 unidades, e voce tera FRETE GRATIS por sua compra nao estar acima de R$ 500.00")
+    }
+   
+    }

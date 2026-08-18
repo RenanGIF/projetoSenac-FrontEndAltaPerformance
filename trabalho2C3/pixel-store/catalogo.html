@@ -272,20 +272,28 @@
             <h2>Gostou de algum produto?</h2>
             <h3>Escolha um produto abaixo e simule sua compra agora!</h3>
             <form>
-                <label>Qual o seu produto:</label>
-                <select>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
+            <label>Qual o seu produto:</label>
+            <select id="produtos">
+                <option value="114.00">Mouse Gamer Logitech G203 LIGHTSYNC - Preto</option>
+                <option value="127.50">Headset Gamer Havit H2015SE - Branco</option>
+                <option value="276.93">Controle Gamer 8BitDo Ultimate 2C</option>
+                <option value="2099.99">Processador AMD Ryzen 7 7800X3D</option>
+                <option value="28999.99">RTX 5090 Asus Rog Astral White Edition OC</option>
+                <option value="549.99">Teclado Gamer Mecânico Corsair K70 Core</option>
+                <option value="549.99">Monitor Gamer Gigabyte GS24F14</option>
+                <option value="1099.99">Placa Mãe MSI B650M Gaming Plus</option>
+            </select>
+                <label>Quantas unidades?</label>
+                <select id="unidades">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
                 </select>
                 <button id="botaoSimularCompra" type="button" onclick="simularCompra()">Enviar</button>   
             </form>     
-            <p id="respostaContato"></p> 
+            <p id="resultCompra"></p> 
         </section>
 
     </main>
