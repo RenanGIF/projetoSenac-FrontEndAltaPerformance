@@ -25,7 +25,48 @@
     </nav>
 
     <main>
+        <h2 id="contato">Area de atendimento:</h2>
+        <button onclick="destacarAtendimento()" class="botaoPadraoForm" type="button">Destacar Atendimento</button>
+        <section class="contato">
+            <fieldset>
+                <legend>Entre em contato conosco:</legend>
+                <form>
+                    <label>Digite seu nome:</label>
+                    <input id="nomeAtn" type="text" placeholder="exemplo">
+                    <br>
+                    <hr>
 
+                    <label>Digite seu telefone:</label>
+                    <input id="telefone" type="text" placeholder="(XX) XXXXX-XXXX" required>
+                    <br>
+                    <hr>
+
+                    <label>Digite sua idade:</label>
+                    <input id="idade" type="number" placeholder="" required>
+                    <br>
+                    <hr>
+
+                    <label>Qual o assunto:</label>
+                    <select id="assuntos">
+                        <option value="">Dúvida sobre produto</option>
+                        <option value="">Problema com compra</option>
+                        <option value="">Outros</option>
+                    </select>
+                    <br>
+                    <hr>
+
+                    <label>Digite sua mensagem:</label>
+                    <input type="text" placeholder="Gostaria de ajuda com" required>
+                    <br>
+                    <hr>
+
+                    <button onclick="enviarContato()" class="botaoPadraoForm" type="button">Entrar em contato agora</button>
+                </form>
+            </fieldset>
+            <p class="" id="resultadoAtn"></p>
+            <p><b>Idade e participação em promoçoes:</b></h3>
+            <p class="" id="resultadoAtnIdade"></p>
+        </section>
 
         
     </main>
